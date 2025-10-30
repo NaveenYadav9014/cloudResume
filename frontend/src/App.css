@@ -1,0 +1,67 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(90deg,#0f1724 0%, #0b2543 100%);
+  color: #eef2ff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 { margin: 0; font-size: 28px; }
+.subtitle { opacity: .8; margin-bottom: 16px; }
+
+.menu { margin: 18px 0; }
+.menu button {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+  padding: 8px 14px;
+  margin: 0 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.menu button.active { background: #ffd88a; color: #0b2543; border-color:transparent; }
+
+.card {
+  background: rgba(255,255,255,0.04);
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  margin: 16px auto;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+input {
+  display: block;
+  width: calc(100% - 24px);
+  margin: 8px 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  margin: 12px;
+  background: #ffd88a;
+  border: none;
+  color: #0b2543;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+table { width: 100%; border-collapse: collapse; color: #fff; }
+thead th { text-align: left; padding: 8px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+tbody td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+
+footer { margin-top: 12px; opacity: .7; }
+.success { color: #9ff5b3; font-weight: bold; margin-top: 6px; }
