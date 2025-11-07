@@ -22,6 +22,9 @@ My project is a resume web application that allows users to:
                  image using s3 static website hosting
 <img width="1544" height="862" alt="Screenshot 2025-11-07 103943" src="https://github.com/user-attachments/assets/928e8a88-8bed-4f14-933c-6113662d706e" />
          image using cludfront
+<img width="1401" height="740" alt="Screenshot 2025-11-07 102533" src="https://github.com/user-attachments/assets/227dc4d4-0d71-4161-873a-2d8023830069" />
+
+         
  <img width="1681" height="742" alt="Screenshot 2025-11-07 111547" src="https://github.com/user-attachments/assets/d2f6f482-8935-4269-837e-ee70c617454f" />
         rds mysql
   <img width="1882" height="488" alt="Screenshot 2025-11-07 111258" src="https://github.com/user-attachments/assets/8a77e27d-69e0-40b8-8bdb-75246ceb76d0" />
