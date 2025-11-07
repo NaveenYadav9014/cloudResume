@@ -1,0 +1,69 @@
+ ☁️ Cloud Resume Challenge — AWS Full Stack Project
+
+This project is my implementation of the Cloud Resume Challenge, built entirely on AWS Cloud Services using a modern full-stack architecture.  
+It demonstrates skills in frontend hosting, backend API integration, database management, and CI/CD automation.
+
+---
+
+🚀 Project Overview
+
+The Cloud Resume Challenge combines frontend and backend development, cloud services, and automation practices.  
+My project is a resume web application that allows users to:
+- View my professional resume.
+- Submit job application forms.
+- Store submitted data securely in an AWS RDS MySQL database.
+
+---
+
+ 🧠 Architecture Diagram
+<img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/7a8042bf-2912-4a55-872f-67cf8140c2e0" />
+
+ 
+---
+
+## 🧩 Technologies Used
+
+| Layer | Technology | Purpose |
+|-------|-------------|----------|
+| Frontend | HTML, CSS, React.js | Dynamic resume UI |
+| Storage & CDN | AWS S3 + CloudFront | Static website hosting and global distribution |
+| Backend | Node.js + Express | API for form submissions |
+| Database | AWS RDS (MySQL) | Stores form submission data |
+| Compute | AWS EC2 | Runs backend server |
+| Monitoring | PM2 | Process management and logs |
+| Version Control | GitHub | Source code and CI/CD integration |
+
+---
+
+⚙️ AWS Services Architecture Flow
+
+1. Frontend is built using React → hosted on AWS S3.
+2. CloudFront distributes the static site globally with HTTPS.
+3. Form submissions from the website trigger requests to EC2 backend API.
+4. The EC2 backend connects securely to RDS MySQL.
+5. Data from users is saved in a table (`submissions`).
+6. GitHub hosts source code; updates automatically deployed via `git pull`.
+
+---
+
+ 🌐 Live Project URL
+
+> Frontend: [http://cloud.resume.nyadav.s3-website.eu-north-1.amazonaws.com/](http://cloud.resume.nyadav.s3-website.eu-north-1.amazonaws.com/)  
+> 
+
+---
+
+🧰 Backend Setup
+
+Backend Path: `/backend`
+
+ 1️⃣ Environment Variables
+
+`.env` file used by Node.js:
+
+```bash
+DB_HOST=resumedb1.cd4ogywu0zqb.eu-north-1.rds.amazonaws.com
+DB_USER=admin1
+DB_PASS=*****
+DB_NAME=companydb
+PORT=3000
