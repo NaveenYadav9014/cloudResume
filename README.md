@@ -18,7 +18,18 @@ My project is a resume web application that allows users to:
  🧠 Architecture Diagram
 <img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/7a8042bf-2912-4a55-872f-67cf8140c2e0" />
 
+ <img width="1553" height="898" alt="Screenshot 2025-11-07 085526" src="https://github.com/user-attachments/assets/b5cbc541-da80-4197-9e56-c036ffaf655d" />
+                 image using s3 static website hosting
+<img width="1544" height="862" alt="Screenshot 2025-11-07 103943" src="https://github.com/user-attachments/assets/928e8a88-8bed-4f14-933c-6113662d706e" />
+         image using cludfront
+ <img width="1681" height="742" alt="Screenshot 2025-11-07 111547" src="https://github.com/user-attachments/assets/d2f6f482-8935-4269-837e-ee70c617454f" />
+        rds mysql
+  <img width="1882" height="488" alt="Screenshot 2025-11-07 111258" src="https://github.com/user-attachments/assets/8a77e27d-69e0-40b8-8bdb-75246ceb76d0" />
+      
+
  
+        
+
 ---
 
 ## 🧩 Technologies Used
