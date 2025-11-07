@@ -16,7 +16,8 @@ My project is a resume web application that allows users to:
 ---
 
  🧠 Architecture Diagram
-<img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/7a8042bf-2912-4a55-872f-67cf8140c2e0" />
+<img width="1174" height="616" alt="image" src="https://github.com/user-attachments/assets/be93c811-3897-4cff-8820-b51bafbc4b77" />
+
 
  <img width="1553" height="898" alt="Screenshot 2025-11-07 085526" src="https://github.com/user-attachments/assets/b5cbc541-da80-4197-9e56-c036ffaf655d" />
                  image using s3 static website hosting
